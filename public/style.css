@@ -1,0 +1,298 @@
+/* FOR LANDING PAGE */
+/*navbar*/
+.navbar{
+    position: fixed;
+}
+.navbar-nav{
+    font-size:15px;
+}
+@media(max-width:1013px){
+    .navbar-brand img{
+        width:180px;
+        z-index:2
+    }   
+}
+.home .Sign_up{
+    border:none;
+    border-radius:21px;
+    background: #4d7cf3;
+    padding:2px 3px;
+    margin-top: 5px;
+    color:white;
+}
+.home .item_navbar li{
+    padding-left:5px;
+    
+}
+.home .item_navbar{
+    padding-left: 40%;
+}
+.home{
+    padding-bottom: 150px;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    content:"";
+    width:0;
+    height:2px;
+    background-color: #4d7cf3;
+    transition: 0.4s ease-out;
+
+}
+.nav-link:hover.nav-link::after{
+    width:100%;
+    color: #4d7cf3;
+}
+
+.login_out a{
+    text-decoration: none;
+}
+.name{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.dropdown{
+    padding-top: 10px;
+}
+/*navbar end*/
+
+/*Background*/
+
+*{
+    max-width:1800px;
+    background-color:#cfe9f6;
+    
+}
+.main_sec{
+    padding-top: 50px;
+}
+.background{
+    position:relative;
+}
+ .back_img{
+    width: 750px;
+    height: 100%;
+}
+@media(max-width:667px){
+    .back_img{
+        width: 350px;
+        height: 100%;
+    }
+}
+@media(max-width:536px){
+    .back_img{
+        width: 250px;
+        height: 100%;
+    }
+}
+.container-lg{
+    margin-top: 50px;
+}
+.container-lg .row a{
+    color:#4d7cf3;
+    border:2px solid#4d7cf3;
+    border-radius:30px;
+    margin-top: -50px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom: 5px;
+    margin-left:20%;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.container-lg span{
+   color: #4d7cf3;
+}
+
+.container-lg button{
+    margin-left: 70%;
+}
+
+/*Card section*/
+.product{
+    padding-bottom: 150px;
+}
+.Bck_opa{
+    opacity: 0.1;
+    position: absolute;
+    margin-top: 100px;
+    width:100%;
+    padding:40px;
+}
+.card{
+    width:200px;
+    height:300px;
+    margin:30px;
+    
+    
+}
+.card_con{
+    justify-content: center;
+    padding-top: 100px;
+    flex-wrap:wrap;
+}
+/* end of card section */
+
+/* start of contacts */
+.contact{
+    padding-top: 70px;
+}
+.Topic{
+    text-align: center;
+    color: #4d7cf3;
+    
+}
+.img_con img{
+    width: 100%;
+    height:100%;
+    z-index:-1;
+}
+.img_con{
+    width: 600px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+@media (max-width:536px) {
+    .img_con{
+        width: 350px;
+        height: 350px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.column_btn a{
+    color: white;
+    border:none;
+    background: #4d7cf3;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+.cont_details .row{
+   position:absolute;
+   margin-top: -90px;
+   margin-left:30vh
+}
+.row_name{
+    padding-left: 200px;
+    padding-top:-800px;
+    padding-bottom: 100px;
+}
+span.help{
+    color: #4d7cf3;
+}
+/* about us */
+
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.topic{
+    text-align: center;
+    
+}
+.topic h1{
+    color: #4d7cf3;
+    font: bold;
+    margin-bottom: 20px;
+}
+.img_abt img{
+    height:200px;
+    width:250px;
+}
+.para p{
+    margin-left: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+@media(max-width:536px){
+    .img_abt img{
+        height:100px;
+        width:150px;
+    }
+}
+/* eND OF LANDING PAGE */
+
+/* --------------------------------------- */
+/* Signin from css */
+.sign_in .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #4d7cf3;
+    border-radius: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: white;
+    border-radius: 45px;
+    border:solid 2px #4d7cf3;
+    color: #4d7cf3;
+    cursor: pointer;
+  }
+  /* signin from end */
+
+  .login_container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group input[type="submit"] {
+    background-color: white;
+    color: #4d7cf3;
+    cursor: pointer;
+  }
+
+  /* Start of about us page */
+  #Headline{
+    color: #4d7cf3;
+    text-align: center;
+  }
+
+  /* End of about us page */
